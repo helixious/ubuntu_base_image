@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
     sudo \
     aptitude \
     curl \
-    software-properties-commonbuild-essential \
+    software-properties-common \
+    build-essential \
     apt-utils \
     openssh-server \
 && apt-get clean && rm -rf /var/lib/apt/lists/*
