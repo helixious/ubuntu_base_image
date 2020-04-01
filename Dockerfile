@@ -14,4 +14,5 @@ RUN apt-get update && apt-get install -y \
     gnupg-agent \
     apt-utils \
     openssh-server \
+    openssl \
 && apt-get clean && rm -rf /var/lib/apt/lists/*
