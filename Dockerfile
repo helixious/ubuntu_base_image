@@ -20,4 +20,5 @@ RUN apt-get update && apt-get install -y \
     gcc \
     make \
     cmake
-RUN apt upgrade -y apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt upgrade -y
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
