@@ -16,4 +16,8 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     openssh-server \
     openssl \
+    g++ \
+    gcc \
+    make \
+    cmake \
 && apt-get clean && rm -rf /var/lib/apt/lists/*
