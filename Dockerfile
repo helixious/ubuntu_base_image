@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     gnupg-agent \
     apt-utils \
+    iputils-ping \
     openssh-server \
     openssl \
 && apt-get clean && rm -rf /var/lib/apt/lists/*
